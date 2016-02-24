@@ -1,0 +1,29 @@
+{ "General": [
+            {"question": "1. Who is the president of Nigeria?", "answer": "a", "options": {"a":"Buhari","b":"Tj","c":"jones"}},
+            {"question": "2. What is 'Tiger' Woods's first name?", "answer":"b", "options": {"a":"Fedrick", "b": "Eldrick", "c": "Maverick"}},
+            {"question": "3. Which has the highest mountain: Earth or Mars?", "answer": "a", "options": {"a":"Mars", "b": "Jupiter", "c": "Venus"}},
+            {"question": "4. What is the most common blood type in humans?", "answer": "c", "options": {"a":"Type B", "b": "Type AB", "c": "Type O"}},
+            {"question": "5. Xenophobia is a fear of?", "answer": "a", "options": {"a":"Strangers", "b": "Friends", "c": "Parents"}},
+            {"question": "6. What do communication satellites and a modern kitchen appliance have in common?", "answer": "c","options": {"a":"Transmitter", "b": "Plastics", "c": "Microwaves"}},
+            {"question": "7. What is the name of Moe's pet cat in the cartoon show The Simpsons?", "answer": "b", "options": {"a":"Mr Snooker", "b": "Mr Snookums", "c": "Mr Snitches"}},
+            {"question": "8. What type of creature is a dugite?", "answer": "c", "options": {"a":"Whale", "b": "Dragon", "c": "Snake"}},
+            {"question": "9. What is the square root of 169?", "answer": "b", "options": {"a":"19", "b": "13", "c": "17"}},
+            {"question": "10. What is the name of the element with the chemical symbol 'He'?", "answer": "a", "options": {"a":"Helium", "b": "Hydrogen", "c": "Herium"}}
+],
+
+
+"Computer Technology": [
+            {"question": "1. Which of the following word processors came first?", "answer": "c", "options": {"a":"WordPad", "b": "MsWord", "c": "WordStar"}},
+            {"question": "2. In which decade was the American Institute of Electrical Engineers (AIEE) founded", "answer": "b", "options": {"a":"1900s", "b": "1880s", "c": "1790s"}},
+            {"question": "3. What is part of a database that holds only one type of information?", "answer": "c", "options": {"a":"Schema", "b": "Keys", "c": "Field"}},
+            {"question": "4. 'OS' computer abbreviation usually means?", "answer": "b", "options": {"a":"Organization System", "b": "Operating System", "c": "Overloaded Storage"}},
+            {"question": "5. Which is largest: a Megabyte, Kilobyte or Gigabyte?", "answer": "a", "options": {"a": "Gigabyte", "b": "Megabyte", "c": "Kilobyte"}},
+            {"question": "6. http://www.facebook.com - is an example of what", "answer": "c", "options": {"a":"Protocol", "b": "Server", "c": "Url"}},
+            {"question": "7. How many bits is a byte?", "answer": "a", "options": {"a":"8", "b": "1004", "c": "4"}},
+            {"question": "8. Google (www.google.com) is a...", "answer": "a", "options": {"a":"Search Engine", "b": "Compiler", "c": "Storage Device"}},
+            {"question": "9. What is a MAC?", "answer": "a", "options": {"a":"Media Access Control", "b": "Macintosh", "c": "Message Access Controller"}},
+            {"question": "10. The abbreviation URL stands for:", "answer": "c", "options": {"a":"Universal Resource Locator", "b": "Uniform Registry Location", "c": "Uniform Resource Locator"}}
+
+]
+
+}
