@@ -12,7 +12,7 @@
 ],
 
 
-"Computer Technology": [
+"Computer": [
             {"question": "1. Which of the following word processors came first?", "answer": "c", "options": {"a":"WordPad", "b": "MsWord", "c": "WordStar"}},
             {"question": "2. In which decade was the American Institute of Electrical Engineers (AIEE) founded", "answer": "b", "options": {"a":"1900s", "b": "1880s", "c": "1790s"}},
             {"question": "3. What is part of a database that holds only one type of information?", "answer": "c", "options": {"a":"Schema", "b": "Keys", "c": "Field"}},

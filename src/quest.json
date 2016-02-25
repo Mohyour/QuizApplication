@@ -1,0 +1,14 @@
+{ "English": [
+            {"question": "1. A verb is an ____ word?", "answer": "a", "options": {"a":"Action","b":"Act","c":"Egolistic"}},
+            {"question": "2. I ____ to swim on weekends?", "answer":"b", "options": {"a":"Liking", "b": "Love", "c": "Inspire"}},
+            {"question": "3. Which word has 2 syllables", "answer": "a", "options": {"a":"Forget", "b": "Addiction", "c": "Game"}},
+            {"question": "4. 'I am hunger' is what type of sentence?", "answer": "c", "options": {"a":"Compound", "b": "Complex", "c": "Simple"}},
+            {"question": "5. Which is not a vowel sound?", "answer": "a", "options": {"a":"G", "b": "A", "c": "E"}},
+            {"question": "6. Hair and Here are _____?", "answer": "c","options": {"a":"Antonyms", "b": "Synonyms", "c": "Homonyms"}},
+            {"question": "7. What is the plural form of 'furniture'", "answer": "b", "options": {"a":"Furnitures", "b": "Furniture", "c": "Furnitureses"}},
+            {"question": "8. The Enlish language has how many alphabets", "answer": "c", "options": {"a":"24", "b": "19", "c": "26"}},
+            {"question": "9. I _____ not seen the girl today", "answer": "b", "options": {"a":"Has", "b": "Have", "c": "Had"}},
+            {"question": "10. Our trainer is an ______ person ", "answer": "a", "options": {"a":"Awesome", "b": "Great", "c": "Lovely"}}
+]
+
+}
