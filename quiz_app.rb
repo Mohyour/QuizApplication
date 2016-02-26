@@ -24,7 +24,10 @@ def take_quiz(name)
     end
     answer = gets.chomp.downcase
     if answer == items['answer']
+      puts "Correct!"
       count += 1
+    else
+      puts "Wrong"
     end
   end
   end_time = Time.now
@@ -54,7 +57,10 @@ def import_quiz(file_path)
     end
     answer = gets.chomp.downcase
     if answer == item['answer']
+      puts "Correct!"
       count += 1
+    else
+      puts "Wrong"
     end
   end
 
@@ -68,7 +74,7 @@ end
 loop do
   puts "------\nEnter 'G' for General questions:".blue
   puts "Enter 'C' for Computer questions".blue
-  puts "Enter 'M' to import your own quiz from a json file_pat.".blue
+  puts "Enter 'M' to import your own quiz from a json file.".blue
   puts "Enter 'Q' to exit\n---------------".blue
   reply = gets.chomp.upcase
 
@@ -84,7 +90,7 @@ loop do
     import_quiz(file_path)
 
   elsif reply == 'Q'
-    puts "Have a nice day!"
+    puts "Thank you! Have a nice day and keep learning."
     system(exit)
 
   else

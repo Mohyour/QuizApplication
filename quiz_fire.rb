@@ -5,30 +5,31 @@ base_uri = 'https://quiz-application.firebaseio.com/'
 
 firebase = Firebase::Client.new(base_uri)
 
-response=firebase.get("eng-quiz")
-c=response.body
- a=c["-KBO92cLKNsH_uq9DhdI"]
- ar = []
-  a.each do |key, value|
-   # puts key
-   # puts value
- #   ar << value
- # end
+response = firebase.get("eng-quiz")
+c = response.body
+quiz = []
+c.each{|id,record|
+  quiz << record
+}
+eng = quiz[0]['English']
+count = 0;
+correct = 0
+failed = 0
+while count < eng.length
+  puts eng[count]['question']
+  options = eng[count]['options']
+  options.each{|key,value|
+    puts "#{key}: #{value}"
+  }
+  choose = gets.chomp
+  if choose == eng[count]['answer']
+    puts "Correct!"
+    correct += 1
+  else
+    puts "Wrong!"
+    failed += 1
+  end
+  count += 1
+end
 
- # puts ar
- # ar.each
- #  ar.each do |items|
- #    puts items['question']
- #    items['options'].each do |key, value|
- #      puts "#{key}: #{value}"
- #    end
- #    answer = gets.chomp.downcase
- #    if answer == items['answer']
- #      count += 1
- #    end
- #  end
- #  end_time = Time.now
- #  time_diff = (end_time - begin_time)
- #  time_spent = Time.at(time_diff).utc.strftime('%H:%M:%S')
- #  puts "\nYou got #{count} questions out of 10"
- #  puts "Time spent: #{time_spent}"
+  puts "You have #{correct} out of 10"
