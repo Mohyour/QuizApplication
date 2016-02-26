@@ -7,27 +7,28 @@ firebase = Firebase::Client.new(base_uri)
 
 response=firebase.get("eng-quiz")
 c=response.body
-puts c.class
-  c.each do |key, value|
-  # puts key
-  value.each do |k,v|
-    puts k
-    puts v
-  end
-end
+ a=c["-KBO92cLKNsH_uq9DhdI"]
+ ar = []
+  a.each do |key, value|
+   # puts key
+   # puts value
+ #   ar << value
+ # end
 
-  # k.each do |x|
-  #   puts x['question']
-  #   x['options'].each do |i, j|
-  #     puts "#{i}: #{j}"
-  #   end
-  #   ans = gets.chomp.downcase
-  #   if ans == x['answer']
-  #     count += 1
-  #   end
-  # end
-  # end_time = Time.now
-  # diff = (end_time - begin_time)
-  # a = Time.at(diff).utc.strftime('%H:%M:%S')
-  # puts "You got #{count} questions out of 10"
-  # puts "Time spent: #{a}"
+ # puts ar
+ # ar.each
+ #  ar.each do |items|
+ #    puts items['question']
+ #    items['options'].each do |key, value|
+ #      puts "#{key}: #{value}"
+ #    end
+ #    answer = gets.chomp.downcase
+ #    if answer == items['answer']
+ #      count += 1
+ #    end
+ #  end
+ #  end_time = Time.now
+ #  time_diff = (end_time - begin_time)
+ #  time_spent = Time.at(time_diff).utc.strftime('%H:%M:%S')
+ #  puts "\nYou got #{count} questions out of 10"
+ #  puts "Time spent: #{time_spent}"

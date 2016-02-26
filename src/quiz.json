@@ -9,6 +9,6 @@
             {"question": "8. What type of creature is a dugite?", "answer": "c", "options": {"a":"Whale", "b": "Dragon", "c": "Snake"}},
             {"question": "9. What is the square root of 169?", "answer": "b", "options": {"a":"19", "b": "13", "c": "17"}},
             {"question": "10. What is the name of the element with the chemical symbol 'He'?", "answer": "a", "options": {"a":"Helium", "b": "Hydrogen", "c": "Herium"}}
-],
+]
 
 }
