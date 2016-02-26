@@ -1,5 +1,5 @@
 { "General": [
-            {"question": "1. Who is the president of Nigeria?", "answer": "a", "options": {"a":"Buhari","b":"Tj","c":"jones"}},
+            {"question": "1. Who is the president of Nigeria?", "answer": "a", "options": {"a":"Mohammed Buhari","b":"Tony Enemule","c":"Goodluck Jonathan"}},
             {"question": "2. What is 'Tiger' Woods's first name?", "answer":"b", "options": {"a":"Fedrick", "b": "Eldrick", "c": "Maverick"}},
             {"question": "3. Which has the highest mountain: Earth or Mars?", "answer": "a", "options": {"a":"Mars", "b": "Jupiter", "c": "Venus"}},
             {"question": "4. What is the most common blood type in humans?", "answer": "c", "options": {"a":"Type B", "b": "Type AB", "c": "Type O"}},
@@ -9,6 +9,6 @@
             {"question": "8. What type of creature is a dugite?", "answer": "c", "options": {"a":"Whale", "b": "Dragon", "c": "Snake"}},
             {"question": "9. What is the square root of 169?", "answer": "b", "options": {"a":"19", "b": "13", "c": "17"}},
             {"question": "10. What is the name of the element with the chemical symbol 'He'?", "answer": "a", "options": {"a":"Helium", "b": "Hydrogen", "c": "Herium"}}
-],
+]
 
 }

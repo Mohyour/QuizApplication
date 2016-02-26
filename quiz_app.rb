@@ -13,7 +13,7 @@ end
 list_quizzes
 
 def take_quiz(name)
-  puts "\n---------------Type in the right option\n-----------------"
+  puts "\n---------------\nType in the right option\n-----------------"
   count = 0
   begin_time = Time.now
   quiz = $questions[name]
@@ -24,7 +24,10 @@ def take_quiz(name)
     end
     answer = gets.chomp.downcase
     if answer == items['answer']
+      puts "Correct!"
       count += 1
+    else
+      puts "Wrong"
     end
   end
   end_time = Time.now
@@ -34,8 +37,8 @@ def take_quiz(name)
   puts "Time spent: #{time_spent}"
 end
 
-def import_quiz(file)
-  data = File.read(file)
+def import_quiz(file_path)
+  data = File.read(file_path)
   new_quiz = JSON.parse(data)
   puts "You have the following quizes:"
   new_quiz.each do |x, _y|
@@ -54,7 +57,10 @@ def import_quiz(file)
     end
     answer = gets.chomp.downcase
     if answer == item['answer']
+      puts "Correct!"
       count += 1
+    else
+      puts "Wrong"
     end
   end
 
@@ -80,13 +86,14 @@ loop do
 
   elsif reply == 'M'
     puts "Specify the path to your file\n-----------------"
-    file = gets.chomp
-    import_quiz(file)
+    file_path = gets.chomp
+    import_quiz(file_path)
 
   elsif reply == 'Q'
+    puts "Thank you! Have a nice day and keep learning."
     system(exit)
 
   else
-    puts 'Please enter the right input'
+    puts 'Please enter the correct input'.red
   end
 end
