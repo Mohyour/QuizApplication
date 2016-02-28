@@ -8,7 +8,7 @@ firebase = Firebase::Client.new(base_uri)
 response = firebase.get("eng-quiz")
 c = response.body
 quiz = []
-c.each{|id,record|
+c.each{|_id,record|
   quiz << record
 }
 eng = quiz[0]['English']
@@ -27,7 +27,7 @@ while count < eng.length
     correct += 1
   else
     puts "Wrong!"
-    failed += 1
+    failed += 1 
   end
   count += 1
 end
